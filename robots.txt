@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://mattfrosst.github.io/sitemap.xml
