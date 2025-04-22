@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2023-03-02 07:59:00-0400
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+I obtained my PhD candidacy at the University of Western Australia, after passing panel review and upon the recommendation of my supervisors and colleagues.
