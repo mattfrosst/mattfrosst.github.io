@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. University of Western Australia, International Centre for Radio Astronomy Research.
+subtitle: <a href="https://www.uwa.edu.au/">University of Western Australia</a>. and the <a href="https://www.icrar.org/">International Centre for Radio Astronomy Research</a>.
 
 profile:
   align: right
@@ -12,7 +12,7 @@ profile:
     <p>Perth, WA, Australia</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
