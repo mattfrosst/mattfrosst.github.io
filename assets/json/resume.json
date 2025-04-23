@@ -5,7 +5,7 @@
     "image": "",
     "email": "frosst.matt@gmail.com",
     "phone": "+61 412 450 745",
-    "url": "https://mattfrosst.github.io",
+    "url": "https://mattfrosst.github.io, https://www.linkedin.com/in/matthew-frosst-720353266/",
     "summary": "A PhD candidate in computational astrophysics, searching for the next step in their career.",
     "location": {
       "address": "",
@@ -59,11 +59,30 @@
     {
       "institution": "University of Western Australia, International Centre for Radio Astronomy Research",
       "location": "Perth, Australia",
-      "url": "https://www.uzh.ch/",
+      "url": "https://www.uwa.edu.au/",
       "area": "Computational Astrophysics",
       "studyType": "PhD",
       "startDate": "2022-02-15",
-      "endDate": "Finishing November, 2025"
+      "endDate": "2025-11-14",
+      "highlights": ["Led several multinational research collaborations focused on accurately executing high-resolution simulations of galaxy evolution on world-leading high performance supercomputers.", "Developed new methods for studying galaxy structure and evolution in massive, time-variable simulation datasets by applying statistical data analysis, computational modelling, and machine learning.", "Responsible for the operation and analysis of ~150+ million CPU-hours of simulation data, valued at >30 million USD."]
+    },
+    {
+      "institution": "Queen's University",
+      "location": "Kingston, Canada",
+      "url": "https://www.queensu.ca",
+      "area": "Physics",
+      "studyType": "MSc",
+      "startDate": "2019-04-01",
+      "endDate": "2022-10-01"
+    },
+    {
+      "institution": "Queen's University",
+      "location": "Kingston, Canada",
+      "url": "https://www.queensu.ca",
+      "area": "Physics",
+      "studyType": "BSc, Honours",
+      "startDate": "2015-09-01",
+      "endDate": "2019-04-01"
     }
   ],
   "awards": [
@@ -73,73 +92,48 @@
       "awarder": "European Southern Observatory (ESO)",
       "url": "",
       "summary": "Competitive funding which supports early-career researchers and PhD students to travel and work at ESO HQ in Munich, Germany."
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
+      "title": "Graduate Research School Travel Award",
+      "date": "2024-01-01",
+      "awarder": "University of Western Australia",
+      "url": "",
+      "summary": "Funding which support the travel requirements of PhD students."
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
+      "title": "Student Travel Assistance Scheme",
+      "date": "2024-01-01",
+      "awarder": "Astronomical Society of Australia",
+      "url": "",
+      "summary": "Funding which support the travel requirements of PhD students or early-career researchers. Competitive as of 2024."
     },
     {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
+      "title": "Research Training Program Stipend",
+      "date": "2022-02-14",
+      "awarder": "Government of Australia",
+      "url": "",
+      "summary": "Competitive funding worth >200,000 aud to support the training of phd students. Covers tuition and a living stipend."
     },
     {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
+      "title": "Best Student Talk - 2nd Place",
+      "date": "2023-06-01",
+      "awarder": "ASTRO3D Centre-of-excellence",
+      "url": "",
+      "summary": ""
     },
     {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "title": "CFHT Summer Student Program",
+      "date": "2021-01-01",
+      "awarder": "Canada-France-Hawaii Telescope (CFHT)",
+      "url": "",
+      "summary": "Funding to attend the CFHT Summer Student Program at one of the worlds most critical observatories in Hawaii, US. Online due to COVID-19."
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "title": "Best Undergraduate Physics Teaching Assistant - 2nd Place",
+      "date": "2021-01-01",
+      "awarder": "Queen's University",
+      "url": "",
+      "summary": "Award for best undergraduate teaching assistant in the Physics Department, as voted for by students."
     }
   ],
   "skills": [
@@ -159,13 +153,8 @@
   ],
   "languages": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
-    {
       "language": "English",
-      "fluency": "Fluent",
+      "fluency": "Native Speaker",
       "icon": ""
     }
   ],
