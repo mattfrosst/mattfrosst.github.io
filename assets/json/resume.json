@@ -1,70 +1,78 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Matthew Frosst",
+    "label": "",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "frosst.matt@gmail.com",
+    "phone": "+61 412 450 745",
+    "url": "https://mattfrosst.github.io",
+    "summary": "A PhD candidate in computational astrophysics, searching for the next step in their career.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "",
+      "postalCode": "",
+      "city": "",
+      "countryCode": "",
+      "region": ""
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "Linked-in",
+        "username": "matthew-frosst-720353266",
+        "url": "https://www.linkedin.com/in/matthew-frosst-720353266/"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "Queen's University",
+      "position": "Consultant Data Scientist",
+      "url": "",
+      "startDate": "2017-01-01",
+      "endDate": "2019-01-01",
+      "summary": "Led team to provide data analysis and data visualisation support using Python, R, and SQL, to the Queen's University Physics Department.",
+      "highlights": ["Communicated key analytics to leadership through technical reports, custom dashboards, and presentations.", "Resulted in statistically significant increases in student retention and test scores, and a reduced workload for teaching assistants."]
     }
   ],
   "volunteer": [
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "organization": "International Centre for Radio Astronomy Research",
+      "location": "Perth, Australia",
+      "position": "PhD Candidate Representative",
+      "url": "",
+      "startDate": "2024-01-01",
+      "endDate": "2025-02-10",
+      "summary": "Attended monthly Senior Staff meetings to advocate oh behalf of the interests of PhD Students.",
+      "highlights": ["Oversaw PhD stipend increase of 1,200 USD.", "Initiated the creation of a 45,000 USD cash pool for article publication fees.", "Helped to reorganise the PhD annual milestone system to promote efficiency and high-quality research."]
+    },
+    {
+      "organization": "International Centre for Radio Astronomy Research",
+      "location": "Perth, Australia",
+      "position": "Diversity, Equity, and Inclusion (DEI) Committee Student Representative",
+      "url": "",
+      "startDate": "2024-01-01",
+      "endDate": "2025-02-10",
+      "summary": "Participated as student representative to the ICRAR DEI committee.",
+      "highlights": ["Organised workshops discussing the professional development and mental health of students and early-career researchers.", "Oversaw the creation of the Renu Sharma Scholarship in Astronomy and Astrophysics which provides 10,000 AUD for women, Aboriginal and Torres Strait Islanders studying astronomy and astrophysics at the University of Western Australia."]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
+      "institution": "University of Western Australia, International Centre for Radio Astronomy Research",
+      "location": "Perth, Australia",
       "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "area": "Computational Astrophysics",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "startDate": "2022-02-15",
+      "endDate": "Finishing November, 2025"
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Science Support Discretionary Fund Recipient",
+      "date": "2024-12-15",
+      "awarder": "European Southern Observatory (ESO)",
+      "url": "",
+      "summary": "Competitive funding which supports early-career researchers and PhD students to travel and work at ESO HQ in Munich, Germany."
     }
   ],
   "certificates": [
@@ -177,24 +185,9 @@
   ],
   "references": [
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Available on request",
+      "icon": "",
+      "reference": ""
     }
   ]
 }
