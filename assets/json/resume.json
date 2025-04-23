@@ -22,39 +22,6 @@
       }
     ]
   },
-  "work": [
-    {
-      "name": "Queen's University",
-      "position": "Consultant Data Scientist",
-      "url": "",
-      "startDate": "2017-01-01",
-      "endDate": "2019-01-01",
-      "summary": "Led team to provide data analysis and data visualisation support using Python, R, and SQL, to the Queen's University Physics Department.",
-      "highlights": ["Communicated key analytics to leadership through technical reports, custom dashboards, and presentations.", "Resulted in statistically significant increases in student retention and test scores, and a reduced workload for teaching assistants."]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "International Centre for Radio Astronomy Research",
-      "location": "Perth, Australia",
-      "position": "PhD Candidate Representative",
-      "url": "",
-      "startDate": "2024-01-01",
-      "endDate": "2025-02-10",
-      "summary": "Attended monthly Senior Staff meetings to advocate oh behalf of the interests of PhD Students.",
-      "highlights": ["Oversaw PhD stipend increase of 1,200 USD.", "Initiated the creation of a 45,000 USD cash pool for article publication fees.", "Helped to reorganise the PhD annual milestone system to promote efficiency and high-quality research."]
-    },
-    {
-      "organization": "International Centre for Radio Astronomy Research",
-      "location": "Perth, Australia",
-      "position": "Diversity, Equity, and Inclusion (DEI) Committee Student Representative",
-      "url": "",
-      "startDate": "2024-01-01",
-      "endDate": "2025-02-10",
-      "summary": "Participated as student representative to the ICRAR DEI committee.",
-      "highlights": ["Organised workshops discussing the professional development and mental health of students and early-career researchers.", "Oversaw the creation of the Renu Sharma Scholarship in Astronomy and Astrophysics which provides 10,000 AUD for women, Aboriginal and Torres Strait Islanders studying astronomy and astrophysics at the University of Western Australia."]
-    }
-  ],
   "education": [
     {
       "institution": "University of Western Australia, International Centre for Radio Astronomy Research",
@@ -85,20 +52,56 @@
       "endDate": "2019-04-01"
     }
   ],
-  "awards": [
+  "industry experience": [
+    {
+      "name": "Queen's University",
+      "position": "Consultant Data Scientist",
+      "url": "",
+      "startDate": "2017-01-01",
+      "endDate": "2019-01-01",
+      "summary": "Led team to provide data analysis and data visualisation support using Python, R, and SQL, to the Queen's University Physics Department.",
+      "highlights": ["Communicated key analytics to leadership through technical reports, custom dashboards, and presentations.", "Resulted in statistically significant increases in student retention and test scores, and a reduced workload for teaching assistants."]
+    }
+  ],
+  "volunteer experience": [
+    {
+      "organization": "International Centre for Radio Astronomy Research",
+      "location": "Perth, Australia",
+      "position": "PhD Candidate Representative",
+      "url": "",
+      "startDate": "2024-01-01",
+      "endDate": "2025-02-10",
+      "summary": "Attended monthly Senior Staff meetings to advocate oh behalf of the interests of PhD Students.",
+      "highlights": ["Oversaw PhD stipend increase of 1,200 USD.", "Initiated the creation of a 45,000 USD cash pool for article publication fees.", "Helped to reorganise the PhD annual milestone system to promote efficiency and high-quality research."]
+    },
+    {
+      "organization": "International Centre for Radio Astronomy Research",
+      "location": "Perth, Australia",
+      "position": "Diversity, Equity, and Inclusion (DEI) Committee Student Representative",
+      "url": "",
+      "startDate": "2024-01-01",
+      "endDate": "2025-02-10",
+      "summary": "Participated as student representative to the ICRAR DEI committee.",
+      "highlights": ["Organised workshops discussing the professional development and mental health of students and early-career researchers.", "Oversaw the creation of the Renu Sharma Scholarship in Astronomy and Astrophysics which provides 10,000 AUD for women, Aboriginal and Torres Strait Islanders studying astronomy and astrophysics at the University of Western Australia."]
+    },
+    {
+      "organization": "International Centre for Radio Astronomy Research",
+      "location": "Perth, Australia",
+      "position": "Computational-Theory Group Chair",
+      "url": "",
+      "startDate": "2022-02-14",
+      "endDate": "2024-02-01",
+      "summary": "Organised the Computational-Theory Group meetings",
+      "highlights": ["Led weekly meetings of the Computational--Theory Group, a UWA science unit focused applying state-of-the-art supercomputer simulations and sophisticated theoretical models to astrophysical problems.", "Organised conferences, speaker presentations, and community events (e.g., monthly BBQ's and an annual half-marathon charity run)."]
+    }
+  ],
+  "selected awards": [
     {
       "title": "Science Support Discretionary Fund Recipient",
       "date": "2024-12-15",
       "awarder": "European Southern Observatory (ESO)",
       "url": "",
       "summary": "Competitive funding which supports early-career researchers and PhD students to travel and work at ESO HQ in Munich, Germany."
-    },
-    {
-      "title": "Graduate Research School Travel Award",
-      "date": "2024-01-01",
-      "awarder": "University of Western Australia",
-      "url": "",
-      "summary": "Funding which support the travel requirements of PhD students."
     },
     {
       "title": "Student Travel Assistance Scheme",
@@ -115,62 +118,12 @@
       "summary": "Competitive funding worth >200,000 aud to support the training of phd students. Covers tuition and a living stipend."
     },
     {
-      "title": "Best Student Talk - 2nd Place",
-      "date": "2023-06-01",
-      "awarder": "ASTRO3D Centre-of-excellence",
-      "url": "",
-      "summary": ""
-    },
-    {
       "title": "CFHT Summer Student Program",
       "date": "2021-01-01",
       "awarder": "Canada-France-Hawaii Telescope (CFHT)",
       "url": "",
       "summary": "Funding to attend the CFHT Summer Student Program at one of the worlds most critical observatories in Hawaii, US. Online due to COVID-19."
     },
-    {
-      "title": "Best Undergraduate Physics Teaching Assistant - 2nd Place",
-      "date": "2021-01-01",
-      "awarder": "Queen's University",
-      "url": "",
-      "summary": "Award for best undergraduate teaching assistant in the Physics Department, as voted for by students."
-    }
-  ],
-  "skills": [
-    {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Native Speaker",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
   ],
   "references": [
     {
