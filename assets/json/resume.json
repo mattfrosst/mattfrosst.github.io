@@ -52,7 +52,7 @@
       "endDate": "2019-04-01"
     }
   ],
-  "industry experience": [
+  "work": [
     {
       "name": "Queen's University",
       "position": "Consultant Data Scientist",
@@ -63,7 +63,7 @@
       "highlights": ["Communicated key analytics to leadership through technical reports, custom dashboards, and presentations.", "Resulted in statistically significant increases in student retention and test scores, and a reduced workload for teaching assistants."]
     }
   ],
-  "volunteer experience": [
+  "volunteer": [
     {
       "organization": "International Centre for Radio Astronomy Research",
       "location": "Perth, Australia",
@@ -95,7 +95,7 @@
       "highlights": ["Led weekly meetings of the Computational--Theory Group, a UWA science unit focused applying state-of-the-art supercomputer simulations and sophisticated theoretical models to astrophysical problems.", "Organised conferences, speaker presentations, and community events (e.g., monthly BBQ's and an annual half-marathon charity run)."]
     }
   ],
-  "selected awards": [
+  "awards": [
     {
       "title": "Science Support Discretionary Fund Recipient",
       "date": "2024-12-15",
