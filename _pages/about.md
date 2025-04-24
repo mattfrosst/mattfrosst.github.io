@@ -27,4 +27,4 @@ latest_posts:
 
 Hi, I’m Matthew Frosst, a third-year PhD candidate in computational astrophysics at the University of Western Australia (UWA), and International Centre for Radio Astronomy Research (ICRAR). I’m interested in how high-performace supercomputing can used to study galaxy formation and evolution. In my research, I apply time-tested emperical and analytical tools, as well as recent advances in data analysis, machine learning, and statistical modelling.
 
-For more details on my latest work, volunteer activities, or general interests, please see my [about page]({{ site.baseurl/home/ | prepend: site.url/home/ }}).
+For more details on my latest work, volunteer activities, or general interests, please see my [about page]({{ site.baseurl | prepend: site.home }}).
