@@ -1,7 +1,7 @@
 ---
 layout: home
 permalink: /home/
-title: home
+title: about
 nav: true
 nav_order: 1
 subtitle: <a href="https://www.uwa.edu.au/">University of Western Australia</a> and the <a href="https://www.icrar.org/">International Centre for Radio Astronomy Research</a>.
