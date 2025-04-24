@@ -2,13 +2,11 @@
 layout: page
 title: about
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: A few more details about me, and the things I've been up to.
 nav: true
 nav_order: 2
 display_categories: [work, fun]
 horizontal: false
-
-subtitle: <a href="https://www.uwa.edu.au/">University of Western Australia</a> and the <a href="https://www.icrar.org/">International Centre for Radio Astronomy Research</a>.
 
 profile:
   align: right

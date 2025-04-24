@@ -40,14 +40,6 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
-    <!-- About me -->
-    {% if page.home %}
-      <h2>
-        <a href="{{ '/home/' | relative_url }}" style="color: inherit">home</a>
-      </h2>
-      {% include home.liquid %}
-    {% endif %}
-    
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2>

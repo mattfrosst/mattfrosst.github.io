@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 1
-description: with background image
+title: Bars, black holes, battlestar galactica
+description: A recently published article about the impact of bars on their central black holes
 img: assets/img/12.jpg
 importance: 1
 category: work
