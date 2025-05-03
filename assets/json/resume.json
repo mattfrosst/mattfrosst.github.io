@@ -71,7 +71,7 @@
       "url": "",
       "startDate": "2024-01-01",
       "endDate": "2025-02-10",
-      "summary": "Attended monthly Senior Staff meetings to advocate oh behalf of the interests of PhD Students.",
+      "summary": "Attended monthly Senior Staff meetings to advocate on behalf of the interests of PhD Students.",
       "highlights": ["Oversaw PhD stipend increase of 1,200 USD.", "Initiated the creation of a 45,000 USD cash pool for article publication fees.", "Helped to reorganise the PhD annual milestone system to promote efficiency and high-quality research."]
     },
     {
@@ -93,6 +93,16 @@
       "endDate": "2024-02-01",
       "summary": "Organised the Computational-Theory Group meetings",
       "highlights": ["Led weekly meetings of the Computational--Theory Group, a UWA science unit focused applying state-of-the-art supercomputer simulations and sophisticated theoretical models to astrophysical problems.", "Organised conferences, speaker presentations, and community events (e.g., monthly BBQ's and an annual half-marathon charity run)."]
+    },
+    {
+      "organization": "",
+      "location": "Perth, Australia",
+      "position": "Journal Referee",
+      "url": "",
+      "startDate": "2024",
+      "endDate": "",
+      "summary": "Referee'd journal articles for the following scientific publishers:",
+      "highlights": ["American Astronomical Society (AAS)"]
     }
   ],
   "awards": [
@@ -108,14 +118,14 @@
       "date": "2024-01-01",
       "awarder": "Astronomical Society of Australia",
       "url": "",
-      "summary": "Funding which support the travel requirements of PhD students or early-career researchers. Competitive as of 2024."
+      "summary": "Competitive funding which supports the travel requirements of PhD students or early-career researchers."
     },
     {
       "title": "Research Training Program Stipend",
       "date": "2022-02-14",
       "awarder": "Government of Australia",
       "url": "",
-      "summary": "Competitive funding worth >200,000 aud to support the training of phd students. Covers tuition and a living stipend."
+      "summary": "Competitive funding worth >200,000 AUD to support the training of PhD students. Covers tuition and a living stipend."
     },
     {
       "title": "CFHT Summer Student Program",
