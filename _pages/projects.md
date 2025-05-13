@@ -4,7 +4,7 @@ title: skills
 permalink: /projects/
 description: A few more details about the techniques astrophysicists use on a daily basis. 
 nav: true
-nav_order: 2
+nav_order: 3
 display_categories: [technical skills, passion projects]
 horizontal: false
 ---
