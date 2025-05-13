@@ -11,7 +11,7 @@ horizontal: false
 
 Below, you will find links to various published data sets used throughout my work. If you use this data for your research, please cite the associated manuscripts.
 
-<!-- pages/probes.md -->
+<!-- pages/projects.md -->
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
