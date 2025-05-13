@@ -1,17 +1,17 @@
 ---
 layout: page
-title: skills
-permalink: /projects/
-description: A few more details about the techniques astrophysicists use on a daily basis. 
+title: data
+permalink: /probes/
+description: Complied data used in some of my previous publications.
 nav: true
-nav_order: 2
-display_categories: [technical skills, passion projects]
+nav_order: 4
+display_categories: [PROBES I, PROBES II]
 horizontal: false
 ---
 
-The techniques modern astrophysicists use to study study galaxy formation and evolution are highly applicable to a variety of industries. Here, I've included some additional details about how the skills that I use in my day-to-day research might be useful for you.
+Below, you will find links to various published data bases used throughout my work. If you use this data for you research, please cite the associated manuscripts.
 
-<!-- pages/projects.md -->
+<!-- pages/probes.md -->
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
