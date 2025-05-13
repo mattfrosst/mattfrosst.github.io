@@ -3,6 +3,8 @@ layout: about
 title: about
 permalink: /home/
 subtitle: A little bit more about me...
+nav: true
+nav_order: 2
 
 profile:
   align: right
