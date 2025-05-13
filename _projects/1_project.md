@@ -4,7 +4,7 @@ title: data analysis
 description: 
 img: assets/img/12.jpg
 importance: 1
-category: work
+category: technical skills
 related_publications: true
 ---
 

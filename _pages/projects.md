@@ -11,7 +11,7 @@ horizontal: false
 
 The techniques modern astrophysicists use to study study galaxy formation and evolution are highly applicable to a variety of industries. Here, I've included some additional details about how the skills that I use in my day-to-day research might be useful for you.
 
-<!-- pages/projects.md -->
+<!-- _pages/projects.md -->
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
