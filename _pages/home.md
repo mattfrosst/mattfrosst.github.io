@@ -2,8 +2,6 @@
 layout: about
 title: about
 permalink: /home/
-nav_order: 1
-nav: true
 subtitle: A little bit more about me...
 
 profile:
