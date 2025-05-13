@@ -1,11 +1,15 @@
 ---
 layout: page
-title: project 5
+title: Problem Solving and Critical Thinking
 description: a project with a background image
 img: assets/img/1.jpg
 importance: 3
-category: fun
+category: work
 ---
+
+Astrophysicists are trained to break down abstract, open-ended problems and rigorously explore possible solutions using both theory and evidence.
+This mindset is highly valued in any technical or strategic role that demands analytical thinking, troubleshooting, and the ability to work in ambiguity.
+
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.

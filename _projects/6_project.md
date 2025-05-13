@@ -1,11 +1,14 @@
 ---
 layout: page
-title: project 6
+title: Communication and Collaboration in Interdisciplinary Teams
 description: a project with no image
 img:
 importance: 4
-category: fun
+category: work
 ---
+
+Your research likely involves working with international teams of scientists, engineers, and developers, and requires communicating complex ideas clearly—both in writing and conversation.
+In industry, the ability to present data-driven insights to diverse stakeholders and work across disciplines is essential for successful projects and leadership.
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.

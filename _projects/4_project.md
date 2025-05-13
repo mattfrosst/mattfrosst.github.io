@@ -1,11 +1,15 @@
 ---
 layout: page
 title: project 4
-description: another without an image
+description: Machine Learning and Model Building
 img:
 importance: 3
-category: fun
+category: work
 ---
+
+Applying ML techniques to astrophysical data—whether for classification, regression, or anomaly detection—develops a practical understanding of model selection, validation, and interpretability.
+This hands-on experience is directly transferable to business problems involving predictive modeling, customer analytics, fraud detection, and more.
+
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.

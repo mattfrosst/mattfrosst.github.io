@@ -1,13 +1,18 @@
 ---
 layout: page
-title: Bars, black holes, battlestar galactica
-description: A recently published article about the impact of bars on their central black holes
+title: Data analysis and data management
+description: 
 img: assets/img/12.jpg
 importance: 1
 category: work
 related_publications: true
 ---
 
+Astronomy & astrophysics is currently one of the most data-intensive fields in science. Between simulations which output Terabites of data, or individual observations of millions of galaxies, it is impossible to get by in this field without some data analysis and data management skills.
+
+Astrophysicists regularly work with massive, noisy, and complex datasets—often from simulations or telescopes—and must extract meaningful patterns and insights. This expertise translates directly to industry roles where structured and unstructured data need to be analyzed, modeled, and interpreted to guide decision-making or power predictive systems.
+
+Examples...
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
 Make your photos 1/3, 2/3, or full width.

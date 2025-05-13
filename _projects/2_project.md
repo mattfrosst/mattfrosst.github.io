@@ -1,12 +1,15 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
+title: Computational and Programming Expertise
+description: 
 img: assets/img/3.jpg
 importance: 2
 category: work
 giscus_comments: true
 ---
+
+You’ve likely developed strong proficiency in programming languages like Python, C/C++, or Julia, along with libraries for scientific computing (e.g., NumPy, SciPy, Pandas).
+Writing efficient, scalable code to simulate physical processes or process data builds a foundation for developing production-ready software, automating workflows, and solving algorithmic problems in industry settings.
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.

@@ -9,7 +9,7 @@ display_categories: [PROBES I, PROBES II]
 horizontal: false
 ---
 
-Below, you will find links to various published data bases used throughout my work. If you use this data for you research, please cite the associated manuscripts.
+Below, you will find links to various published data sets used throughout my work. If you use this data for your research, please cite the associated manuscripts.
 
 <!-- pages/probes.md -->
 <div class="projects">
