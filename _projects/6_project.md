@@ -4,7 +4,7 @@ title: Communication and Collaboration in Interdisciplinary Teams
 description: a project with no image
 img:
 importance: 4
-category: work
+category: technical skills
 ---
 
 Your research likely involves working with international teams of scientists, engineers, and developers, and requires communicating complex ideas clearly—both in writing and conversation.

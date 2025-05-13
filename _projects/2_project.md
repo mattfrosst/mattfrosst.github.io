@@ -4,7 +4,7 @@ title: Computational and Programming Expertise
 description: 
 img: assets/img/3.jpg
 importance: 2
-category: work
+category: technical skills
 giscus_comments: true
 ---
 

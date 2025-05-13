@@ -4,7 +4,7 @@ title: project 4
 description: Machine Learning and Model Building
 img:
 importance: 3
-category: work
+category: technical skills
 ---
 
 Applying ML techniques to astrophysical data—whether for classification, regression, or anomaly detection—develops a practical understanding of model selection, validation, and interpretability.

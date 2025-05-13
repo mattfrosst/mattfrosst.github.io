@@ -5,7 +5,7 @@ description: a project that redirects to another website
 img: assets/img/7.jpg
 redirect: https://unsplash.com
 importance: 3
-category: work
+category: technical skills
 ---
 
 Working with high-resolution simulations on supercomputers gives you firsthand experience in optimizing code for performance, managing memory, and leveraging parallel processing (e.g., MPI, OpenMP).

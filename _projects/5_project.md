@@ -4,7 +4,7 @@ title: Problem Solving and Critical Thinking
 description: a project with a background image
 img: assets/img/1.jpg
 importance: 3
-category: work
+category: technical skills
 ---
 
 Astrophysicists are trained to break down abstract, open-ended problems and rigorously explore possible solutions using both theory and evidence.
