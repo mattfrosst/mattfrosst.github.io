@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Data analysis and data management
+title: data analysis
 description: 
 img: assets/img/12.jpg
 importance: 1
@@ -8,7 +8,7 @@ category: work
 related_publications: true
 ---
 
-Astronomy & astrophysics is currently one of the most data-intensive fields in science. Between simulations which output Terabites of data, or individual observations of millions of galaxies, it is impossible to get by in this field without some data analysis and data management skills.
+Astronomy and astrophysics is currently one of the most data-intensive fields in science. Between simulations which output Terabits of data, or individual observations of millions of galaxies, it is impossible to get by in this field without some data analysis and data management skills.
 
 Astrophysicists regularly work with massive, noisy, and complex datasets—often from simulations or telescopes—and must extract meaningful patterns and insights. This expertise translates directly to industry roles where structured and unstructured data need to be analyzed, modeled, and interpreted to guide decision-making or power predictive systems.
 
