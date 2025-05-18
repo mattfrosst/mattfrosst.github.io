@@ -25,14 +25,14 @@ If you are using data from this website in your scientific publications, please 
   <!-- Generate cards for each project -->
   {% if page.horizontal %}
   <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
+    <div class="row row-cols-1">
     {% for project in sorted_projects %}
       {% include projects_horizontal.liquid %}
     {% endfor %}
     </div>
   </div>
   {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
+  <div class="row row-cols-1">
     {% for project in sorted_projects %}
       {% include projects.liquid %}
     {% endfor %}
@@ -51,14 +51,14 @@ If you are using data from this website in your scientific publications, please 
 {% if page.horizontal %}
 
   <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
+    <div class="row row-cols-1">
     {% for project in sorted_projects %}
       {% include projects_horizontal.liquid %}
     {% endfor %}
     </div>
   </div>
   {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
+  <div class="row row-cols-1">
     {% for project in sorted_projects %}
       {% include projects.liquid %}
     {% endfor %}
