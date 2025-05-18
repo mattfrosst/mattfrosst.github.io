@@ -1,7 +1,7 @@
 ---
 layout: page
-title: PROBES I
-description: PROBES I data
+title: PROBES I data; <a href="https://ui.adsabs.harvard.edu/abs/2022ApJS..262...33S/abstract">Stone et. al. 2022</a>
+description: Here, you can download the PROBES I dataset, and read some further information on its contents and selection.
 img: 
 importance: 1
 category: PROBES I

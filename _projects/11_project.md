@@ -1,9 +1,9 @@
 ---
 layout: page
-title: PROBES II
-description: PROBES II data
+title: PROBES II data; <a href="https://ui.adsabs.harvard.edu/abs/2022MNRAS.514.3510F/abstract">Frosst et al. 2022</a>
+description: Here, you can download the PROBES II dataset, and read some further information on its contents and selection.
 img:
-importance: 4
+importance: 2
 category: PROBES II
 ---
 
