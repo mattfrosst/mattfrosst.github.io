@@ -23,22 +23,35 @@ If you are using data from this website in your scientific publications, please 
   </a>
   {% assign categorized_projects = site.projects | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  #<!-- Generate cards for each project -->
-  #{% if page.horizontal %}
-  #<div class="container">
-  #  <div class="row row-cols-1 row-cols-md-2">
-  #  {% for project in sorted_projects %}
-  #    {% include projects_horizontal.liquid %}
-  #  {% endfor %}
-  #  </div>
-  #</div>
-  #{% else %}
-  #<div class="row row-cols-1 row-cols-md-3">
-  #  {% for project in sorted_projects %}
-  #    {% include projects.liquid %}
-  #  {% endfor %}
-  #</div>
-  #{% endif %}
+  <p class="card-text">
+  {% case project.title %}
+    {% when "PROBES I" %}
+      Studying the structural and dynamical properties of bars in cosmological simulations.
+    {% when "PROBES II" %}
+      Analysis of gas dynamics and star formation thresholds in thin disc galaxies.
+    {% when "Mock Observations of Edge-on Bars" %}
+      Creating synthetic images to compare simulation data with real galaxy surveys.
+    {% else %}
+      More data coming soon...
+  {% endcase %}
+  </p>
+
+  <!-- Generate cards for each project -->
+  {% if page.horizontal %}
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-2">
+    {% for project in sorted_projects %}
+      {% include projects_horizontal.liquid %}
+    {% endfor %}
+    </div>
+  </div>
+  {% else %}
+  <div class="row row-cols-1 row-cols-md-3">
+    {% for project in sorted_projects %}
+      {% include projects.liquid %}
+    {% endfor %}
+  </div>
+  {% endif %}
   {% endfor %}
 
 {% else %}
