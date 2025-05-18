@@ -1,10 +1,10 @@
 ---
 layout: page
-title: PROBES I
-description: another project with an image 🎉
+title: PROBES II
+description: PROBES II data
 img: assets/img/6.jpg
 importance: 4
-category: PROBES I
+category: PROBES II
 ---
 
 Every project has a beautiful feature showcase page.

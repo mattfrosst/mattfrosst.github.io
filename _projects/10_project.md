@@ -1,7 +1,7 @@
 ---
 layout: page
 title: PROBES I
-description: another project with an image 🎉
+description: PROBES I data
 img: assets/img/6.jpg
 importance: 4
 category: PROBES I

@@ -8,10 +8,9 @@ nav_order: 3
 display_categories: [PROBES I, PROBES II]
 horizontal: false
 ---
-<a href="https://ui.adsabs.harvard.edu/abs/2022ApJS..262...33S/abstract">PROBES I</a> and <a href="https://ui.adsabs.harvard.edu/abs/2022MNRAS.514.3510F/abstract">PROBES II</a> are datasets of 3163 galaxies (primarily late-type spirals) and 716 galaxies (an expanded sample of dwarf galaxies), respectively. Both datasets have SDSS, DESI-LIS, GALEX, and/or WISE photometry (tracing the stellar mass distribution) and high-quality HI and/or Halpha rotation curves (tracing the gravitational potential out to large radii). There is some overlap in the two samples to allow for accurate comparisons of the data and the subsequent analysis. To date, the combined PROBES I + II dataset spans the broadest range in stellar masses (5 dex), surface brightnesses (>3 dex), and rotation curve shapes. On this webpage you can download the PROBES data and access our scientific publications.
+<a href="https://ui.adsabs.harvard.edu/abs/2022ApJS..262...33S/abstract">PROBES I</a> and <a href="https://ui.adsabs.harvard.edu/abs/2022MNRAS.514.3510F/abstract">PROBES II</a> are datasets containing the rotation curves (RCs) and surface brightness (SB) profiles of 3163 galaxies (primarily late-type spirals) and 716 galaxies (primarily dwarf galaxies and late-type spirals), respectively. Specifically, both datasets have SDSS, DESI-LIS, GALEX, and/or WISE photometry (tracing the stellar mass distribution) and high-quality HI and/or Halpha rotation curves (tracing the gravitational potential out to large radii). There is some overlap in the two samples to allow for accurate comparisons of the data and the subsequent analysis. To date, the combined PROBES I + II dataset spans the broadest range in stellar masses (5 dex), surface brightnesses (>3 dex), and rotation curve shapes. On this webpage you can download the PROBES data and access our scientific publications.
 
 If you are using data from this website in your scientific publications, please cite the <a href="https://ui.adsabs.harvard.edu/abs/2022ApJS..262...33S/abstract">PROBES I</a> and <a href="https://ui.adsabs.harvard.edu/abs/2022MNRAS.514.3510F/abstract">PROBES II</a> master papers. References to the original HI+Halpha rotation curves are given in the datasets, and we encourage you to also consider citing the original rotation-curve sources if relevant to your manuscript.
-
 
 <!-- _pages/data.md -->
 <div class="projects">
@@ -23,17 +22,6 @@ If you are using data from this website in your scientific publications, please 
   </a>
   {% assign categorized_projects = site.projects | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <p class="card-text">
-  {% case page.display_categories %}
-    {% when "PROBES I" %}
-      PROBES I here!
-    {% when "PROBES II" %}
-      PROBES II here!!
-    {% else %}
-      More data coming soon...
-  {% endcase %}
-  </p>
-
   <!-- Generate cards for each project -->
   {% if page.horizontal %}
   <div class="container">
