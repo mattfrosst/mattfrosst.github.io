@@ -183,6 +183,25 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// Thin Card
+
+.thin-card {
+  background-color: var(--global-card-bg-color);
+
+  .thin-card-img {
+    width: 50%;
+    padding-top: 1.25rem;
+  }
+
+  .thin-card-title {
+    color: var(--global-text-color);
+  }
+
+  .thin-card-body {
+    padding: 1.25rem 1.25rem 1.25rem 1.25rem;
+  }
+}
+
 // Citation
 
 .citation,

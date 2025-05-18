@@ -2,7 +2,7 @@
 layout: page
 title: PROBES II
 description: PROBES II data
-img: assets/img/6.jpg
+img:
 importance: 4
 category: PROBES II
 ---
