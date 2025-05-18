@@ -1,6 +1,6 @@
 ---
 layout: page
-title: PROBES I & II
+title: data
 permalink: /data/
 description: 
 nav: true
