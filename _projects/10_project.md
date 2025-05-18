@@ -19,6 +19,7 @@ The reduced data are contained in various .csv files. Each galaxy has a unique n
 
 If you use this data in your research, we request that the cite <a href="https://ui.adsabs.harvard.edu/abs/2022ApJS..262...33S/abstract">Stone et. al. 2022</a>, for which the bibtex located below:
 <h3>Citation</h3>
+{% raw %}
 <pre><code>@ARTICLE{2022ApJS..262...33S,
        author = {{Stone}, Connor and {Courteau}, St{\'e}phane and {Arora}, Nikhil and {Frosst}, Matthew and {Jarrett}, Thomas H.},
         title = "{PROBES. I. A Compendium of Deep Rotation Curves and Matched Multiband Photometry}",
@@ -37,7 +38,7 @@ archivePrefix = {arXiv},
        adsurl = {https://ui.adsabs.harvard.edu/abs/2022ApJS..262...33S},
       adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }</code></pre>
-
+{% endraw %}
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
