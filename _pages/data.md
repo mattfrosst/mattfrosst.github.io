@@ -24,13 +24,11 @@ If you are using data from this website in your scientific publications, please 
   {% assign categorized_projects = site.projects | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}
   <p class="card-text">
-  {% case project.title %}
+  {% case page.display_categories %}
     {% when "PROBES I" %}
-      Studying the structural and dynamical properties of bars in cosmological simulations.
+      PROBES I here!
     {% when "PROBES II" %}
-      Analysis of gas dynamics and star formation thresholds in thin disc galaxies.
-    {% when "Mock Observations of Edge-on Bars" %}
-      Creating synthetic images to compare simulation data with real galaxy surveys.
+      PROBES II here!!
     {% else %}
       More data coming soon...
   {% endcase %}
