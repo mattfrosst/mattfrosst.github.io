@@ -1,15 +1,26 @@
 ---
 layout: page
-title: skills
+title: scientific colourmaps
 permalink: /projects/
-description: A few more details about the techniques astrophysicists use on a daily basis. 
+description: 
 nav: true
 nav_order: 3
-display_categories: [technical skills, passion projects]
+display_categories: [sequential, divergiving, cyclic, gallery]
 horizontal: false
 ---
 
-The techniques modern astrophysicists use to study study galaxy formation and evolution are highly applicable to a variety of industries. Here, I've included some additional details about how the skills that I use in my day-to-day research might be useful for you.
+Colour That Communicates
+
+Effective data visualization begins with colourmaps that are perceptually fair, accessible, and reproducible. The colourmaps featured here are designed to:
+
+- Represent data fairly: With perceptually uniform gradients, these maps avoid visual distortion and ensure that patterns in the data are represented honestly and intuitively.
+
+- Support universal readability: Every palette has been tested for accessibility — they remain interpretable by those with colour vision deficiencies, in grayscale, and even when printed in black and white.
+
+- Enable reproducibility: All colourmaps are permanently archived and versioned, making it easy to track updates, cite their use, and acknowledge contributors.
+
+Whether you're building scientific plots, designing interfaces, or crafting dashboards, these colourmaps aim to enhance both clarity and trust in your data-driven work.
+
 
 <!-- _pages/projects.md -->
 <div class="projects">
