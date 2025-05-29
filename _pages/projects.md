@@ -1,6 +1,6 @@
 ---
 layout: page
-title: scientific colourmaps
+title: colourmaps
 permalink: /projects/
 description: 
 nav: true

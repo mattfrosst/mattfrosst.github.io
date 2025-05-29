@@ -1,10 +1,10 @@
 ---
 layout: page
-title: data analysis
+title: tokyo
 description: 
 img: assets/img/12.jpg
 importance: 1
-category: technical skills
+category: sequential
 related_publications: true
 ---
 
