@@ -2,22 +2,20 @@
 layout: page
 title: colourmaps
 permalink: /projects/
-description: 
+description: Colours that communicate.
 nav: true
 nav_order: 3
 display_categories: [sequential, divergiving, cyclic, gallery]
 horizontal: false
 ---
 
-Colour That Communicates
-
 Effective data visualization begins with colourmaps that are perceptually fair, accessible, and reproducible. The colourmaps featured here are designed to:
 
-- Represent data fairly: With perceptually uniform gradients, these maps avoid visual distortion and ensure that patterns in the data are represented honestly and intuitively.
+- <b>Represent data fairly</b>: With perceptually uniform gradients, these maps avoid visual distortion and ensure that patterns in the data are represented honestly and intuitively.
 
-- Support universal readability: Every palette has been tested for accessibility — they remain interpretable by those with colour vision deficiencies, in grayscale, and even when printed in black and white.
+- <b>Support universal readability</b>: Every palette has been tested for accessibility — they remain interpretable by those with colour vision deficiencies, in grayscale, and even when printed in black and white.
 
-- Enable reproducibility: All colourmaps are permanently archived and versioned, making it easy to track updates, cite their use, and acknowledge contributors.
+- <b>Enable reproducibility</b>: All colourmaps are permanently archived and versioned, making it easy to track updates, cite their use, and acknowledge contributors.
 
 Whether you're building scientific plots, designing interfaces, or crafting dashboards, these colourmaps aim to enhance both clarity and trust in your data-driven work.
 
