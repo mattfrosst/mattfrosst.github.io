@@ -4,6 +4,7 @@ title: PROBES I data; Stone et al. 2022
 description: Here, you can download the PROBES I dataset, and read some further information on its contents and selection.
 img: 
 importance: 1
+cv_pdf: example_pdf.pdf
 category: PROBES I
 ---
 
