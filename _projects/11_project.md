@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: data
 title: PROBES II data; Frosst et al. 2022
 description: Here, you can download the PROBES II dataset, and read some further information on its contents and selection.
 img:
