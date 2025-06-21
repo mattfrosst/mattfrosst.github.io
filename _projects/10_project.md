@@ -7,6 +7,14 @@ importance: 1
 download_files:
   - name: Dataset 1
     url: example_pdf.pdf
+  - name: Dataset 2
+    url: example_pdf.pdf
+  - name: Dataset 3
+    url: example_pdf.pdf
+  - name: Dataset 4
+    url: example_pdf.pdf
+  - name: Dataset 5
+    url: example_pdf.pdf
 category: PROBES I
 ---
 
