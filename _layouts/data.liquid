@@ -57,7 +57,21 @@ layout: default
       {% endif %}
     </p>
   </header>
-
+  {% if page.cv_pdf %}
+    <a
+      {% if page.cv_pdf contains '://' %}
+        href="{{ page.cv_pdf }}"
+      {% else %}
+        href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}"
+      {% endif %}
+      target="_blank"
+      rel="noopener noreferrer"
+      class="float-right"
+    >
+      <i class="fa-solid fa-file-pdf"></i>
+    </a>
+  {% endif %}
+	
   <article class="post-content">
     {% if page.toc and page.toc.beginning %}
       <div id="table-of-contents">
