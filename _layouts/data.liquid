@@ -13,7 +13,7 @@ layout: default
   </style>
 {% endif %}
 
-<!-- Custon Styles -->
+<!-- Custon styles for download buttons-->
 <style>
     .download-grid {
       display: flex;
@@ -24,18 +24,23 @@ layout: default
 
     .download-button {
       flex: 1 1 calc(25% - 1rem); /* 4 buttons per row */
-      background-color: #007acc;
+      background-color: #bebebe;
       color: white;
       padding: 1rem;
       text-align: center;
       text-decoration: none;
       border-radius: 8px;
       font-weight: bold;
-      transition: background-color 0.3s ease;
+      transition: background-color 0.3s ease, box-shadow 0.3s ease;
+      display: inline-block;
+      box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
     }
 
     .download-button:hover {
-      background-color: #005c99;
+      background-color: #a9a9a9;
+
+      /* Optional but cool: stronger shadow on hover */
+      box-shadow: 3px 3pc 6pc rgba(0,0,0,0.25);
     }
 </style>
 
