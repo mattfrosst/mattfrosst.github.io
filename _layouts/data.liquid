@@ -42,21 +42,6 @@ layout: default
         {% endfor %}
       {% endif %}
 
-      {% if page.cv_pdf %}
-        <a
-          {% if page.cv_pdf contains '://' %}
-            href="{{ page.cv_pdf }}"
-          {% else %}
-            href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}"
-          {% endif %}
-          target="_blank"
-          rel="noopener noreferrer"
-          class="float-right"
-        >
-          <i class="fa-solid fa-file-pdf"></i>
-        </a>
-      {% endif %}
-
       {% if categories != '' %}
         &nbsp; &middot; &nbsp;
         {% for category in page.categories %}
@@ -74,6 +59,18 @@ layout: default
   </header>
 	
   <article class="post-content">
+    {% if page.cv_pdf %}
+      <a
+        {% if page.cv_pdf contains '://' %}
+          href="{{ page.cv_pdf }}"
+        {% endif %}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="float-right"
+      >
+        <i class="fa-solid fa-file-pdf"></i>
+      </a>
+    {% endif %}    
     {% if page.toc and page.toc.beginning %}
       <div id="table-of-contents">
         {% toc %}
