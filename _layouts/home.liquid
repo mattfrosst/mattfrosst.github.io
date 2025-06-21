@@ -38,9 +38,16 @@ layout: default
 </style>
 
 <div class="hero-section">
-  <img class="hero-image" src="/assets/img/5.jpg" alt="Hero Image">
+  <img class="hero-image" src="/assets/img/12.jpg" alt="Hero Image">
   <div class="hero-text">
-    <h1 class="post-title">{{ site.title }}</h1>
+    <h1 class="post-title">
+      {% if site.title == 'blank' %}
+        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
+        {{ site.last_name }}
+      {% else %}
+        {{ site.title }}
+      {% endif %}
+    </h1>
     <p class="desc">{{ page.subtitle }}</p>
   </div>
 </div>
