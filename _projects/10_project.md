@@ -5,15 +5,9 @@ description: Here, you can download the PROBES I dataset, and read some further 
 img: 
 importance: 1
 download_files:
-  - name: Dataset 1
+  - name: probesI_main_table.csv
     url: example_pdf.pdf
-  - name: Dataset 2
-    url: example_pdf.pdf
-  - name: Dataset 3
-    url: example_pdf.pdf
-  - name: Dataset 4
-    url: example_pdf.pdf
-  - name: Dataset 5
+  - name: probesI_files.zip
     url: example_pdf.pdf
 category: PROBES I
 ---
@@ -22,7 +16,7 @@ PROBES I contains extended rotation curves for 3163 late-type spirals, with matc
 
 The PROBES I data, complied by <a href="https://ui.adsabs.harvard.edu/abs/2022ApJS..262...33S/abstract">Stone et. al. 2022</a>, can be easily downloaded from any of the above buttons.
 
-The reduced data are contained in various .csv files. Each galaxy has a unique name which is given in the first column of each table. The file main_table.csv contains high level information about every galaxy including redshift, morphology, and which photometric bands are available. The model_fits.csv file contains fitting parameters for a number of parametric models which describeeither the rotation curves or surface brightness profiles. The structural_parameters.csv file contains structural parameters such as the effective radius or absolute magnitude for every galaxy which has the relevant data. The columns in each table are described in the README_tables file. 
+The reduced data are contained in various .csv files. Each galaxy has a unique name which is given in the first column of each table. The file probesI_main_table.csv contains high level information about every galaxy including redshift, morphology, and which photometric bands are available. Individual profiles, and additional data products are available in probesI_files.zip. The model_fits.csv file contains fitting parameters for a number of parametric models which describeeither the rotation curves or surface brightness profiles. The structural_parameters.csv file contains structural parameters such as the effective radius or absolute magnitude for every galaxy which has the relevant data. The columns in each table are described in the README_tables file. 
 
 If you use this data in your research, we request that you cite <a href="https://ui.adsabs.harvard.edu/abs/2022ApJS..262...33S/abstract">Stone et. al. 2022</a>, the bibtex for which can be found below:
 {% raw %}

@@ -27,7 +27,7 @@ layout: default
       flex: 1 1 calc(25% - 1rem); /* 4 buttons per row */
       background-color: white;
       color: black;
-      padding: 1rem;
+      padding: 1.5rem 1rem;
       text-align: center;
       text-decoration: none;
       border-radius: 8px;
@@ -54,7 +54,7 @@ layout: default
       {% if page.last_updated %}, last updated on {{ page.last_updated | date: '%B %d, %Y' }}{% endif %}
       {% if page.meta %}• {{ page.meta }}{% endif %}
     </p>
-    <p class="post-tags">
+    /* <p class="post-tags">
       {% if url_beginning == '/blog/' %}
         <a href="{{ year | prepend: '/blog/' | relative_url }}"> <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} </a>
       {% else %}
@@ -87,7 +87,7 @@ layout: default
           {% endunless %}
         {% endfor %}
       {% endif %}
-    </p>
+    </p> */
   </header>
 
   {% if page.download_files %}
