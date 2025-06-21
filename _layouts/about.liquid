@@ -10,7 +10,7 @@ layout: default
   }
 
   .hero-image {
-    width: 100%;
+    width: 150%;
     height: 100%;
     object-fit: cover;
     display: block;
@@ -27,11 +27,13 @@ layout: default
   }
 
   .hero-text .post-title {
+    color: white;
     font-size: 2.5rem;
     margin: 0;
   }
 
   .hero-text .desc {
+    color: white;
     font-size: 1.2rem;
     margin-top: 0.5rem;
   }
@@ -53,18 +55,6 @@ layout: default
 </div>
 
 <div class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}
-      {% else %}
-        {{ site.title }}
-      {% endif %}
-    </h1>
-    <p class="desc">{{ page.subtitle }}</p>
-  </header>
-
   <article>
     {% if page.profile %}
       <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
