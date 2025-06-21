@@ -10,7 +10,30 @@ layout: default
   <!-- Page/Post style -->
   <style type="text/css">
     {{ page._styles }}
-  </style>
+
+    .download-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+
+    .download-button {
+      flex: 1 1 calc(25% - 1rem); /* 4 buttons per row */
+      background-color: #007acc;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .download-button:hover {
+      background-color: #005c99;
+    }
+</style>
 {% endif %}
 
 <div class="post">
@@ -57,20 +80,20 @@ layout: default
       {% endif %}
     </p>
   </header>
-	
-  <article class="post-content">
-    {% if page.cv_pdf %}
-      <a
-        {% if page.cv_pdf contains '://' %}
-          href="{{ page.cv_pdf }}"
+
+  {% if page.download_files %}
+    <div class="download-grid">
+      {% for file in page.download_files %}
+        {% if file contains '://' %}
+	  <a class="download-button" href="{{ file.url | relative_url }}" download>{{ file.name }}</a>
+        {% else %}
+	  <a class="download-button" href="{{ file.url | prepend: 'assets/pdf/' | relative_url }}" download>{{ file.name }}</a>
         {% endif %}
-        target="_blank"
-        rel="noopener noreferrer"
-        class="float-right"
-      >
-        <i class="fa-solid fa-file-pdf"></i>
-      </a>
-    {% endif %}    
+      {% endfor %}
+    </div>
+  {% endif %}
+
+  <article class="post-content">
     {% if page.toc and page.toc.beginning %}
       <div id="table-of-contents">
         {% toc %}
