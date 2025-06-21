@@ -4,12 +4,15 @@ title: PROBES II data; Frosst et al. 2022
 description: Here, you can download the PROBES II dataset, and read some further information on its contents and selection.
 img:
 importance: 2
+download_files:
+  - name: probes2_main_table.csv
+    url: example_pdf.pdf
+  - name: probes2_files.zip
+    url: example_pdf.pdf
 category: PROBES II
 ---
 
-The PROBES II data, complied by <a href="https://ui.adsabs.harvard.edu/abs/2022MNRAS.514.3510F/abstract">Frosst et. al. 2022</a>, can be easily downloaded at the following link:
-
-<h3> Coming soon! </h3>
+The PROBES II data, complied by <a href="https://ui.adsabs.harvard.edu/abs/2022MNRAS.514.3510F/abstract">Frosst et. al. 2022</a>, can be easily downloaded from the above buttons.
 
 If you use this data in your research, we request that you cite <a href="https://ui.adsabs.harvard.edu/abs/2022MNRAS.514.3510F/abstract">Frosst et. al. 2022</a>, the bibtex for which can be found below:
 {% raw %}

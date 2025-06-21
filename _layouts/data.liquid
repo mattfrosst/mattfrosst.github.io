@@ -32,7 +32,7 @@ layout: default
       text-decoration: none;
       border-radius: 8px;
       font-weight: bold;
-      transition: background-color 0.75s ease-in-out, box-shadow 0.75s ease-in-out;
+      transition: background-color 0.75s ease-in, box-shadow 0.75s ease-in;
       display: inline-block;
       box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
     }
@@ -41,7 +41,7 @@ layout: default
       background-color: white;
       text-decoration: none; /* Prevents underline on hover */
       /* Optional but cool: stronger shadow on hover */
-      box-shadow: 3px 3px 6px rgba(0,0,0,0.25);
+      box-shadow: 4px 4px 7px rgba(0,0,0,0.25);
     }
 </style>
 
@@ -49,7 +49,6 @@ layout: default
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-meta">
-      Page updated on {{ page.date | date: '%B %d, %Y' }}
       {% if page.author %}by {{ page.author }}{% endif %}
       {% if page.last_updated %}, last updated on {{ page.last_updated | date: '%B %d, %Y' }}{% endif %}
       {% if page.meta %}• {{ page.meta }}{% endif %}
