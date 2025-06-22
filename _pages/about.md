@@ -3,6 +3,11 @@ layout: about
 title: home
 permalink: /
 subtitle: <a href="https://www.uwa.edu.au/">University of Western Australia</a> and the <a href="https://www.icrar.org/">International Centre for Radio Astronomy Research</a>.
+hero-section: >
+  <div class="hero-image" style="background-image: url('/assets/img/5.jpg'); height: 100vh; background-size: cover; background-position: center;">
+    <h1 class="hero-title">Welcome</h1>
+    <p class="hero-subtitle">Explore my universe.</p>
+  </div>
 
 profile:
   align: right

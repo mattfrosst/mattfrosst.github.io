@@ -1,10 +1,8 @@
 ---
 layout: default
 ---
-
-<div class="hero-section">
-  <img class="hero-section-image" src="/assets/img/5.jpg" alt="Hero Image">
-  <div class="hero-section-text">
+<div class="post">
+  <header class="post-header">
     <h1 class="post-title">
       {% if site.title == 'blank' %}
         <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
@@ -14,10 +12,8 @@ layout: default
       {% endif %}
     </h1>
     <p class="desc">{{ page.subtitle }}</p>
-  </div>
-</div>
+  </header>
 
-<div class="post">
   <article>
     {% if page.profile %}
       <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
