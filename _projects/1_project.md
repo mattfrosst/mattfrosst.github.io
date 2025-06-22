@@ -4,7 +4,7 @@ title: tokyo
 description: 
 img: assets/img/12.jpg
 importance: 1
-category: sequential
+category: false
 related_publications: true
 ---
 

@@ -61,7 +61,7 @@ layout: default
         {% if file contains '://' %}
 	  <a class="download-button" href="{{ file.url | relative_url }}" download>{{ file.name }}</a>
         {% else %}
-	  <a class="download-button" href="{{ file.url | prepend: 'assets/pdf/' | relative_url }}" download>{{ file.name }}</a>
+	  <a class="download-button" href="{{ file.url | prepend: 'assets/probes/' | relative_url }}" download>{{ file.name }}</a>
         {% endif %}
       {% endfor %}
     </div>

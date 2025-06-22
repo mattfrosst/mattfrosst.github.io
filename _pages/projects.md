@@ -5,7 +5,7 @@ permalink: /projects/
 description: Colours that communicate.
 nav: true
 nav_order: 3
-display_categories: [sequential, divergiving, cyclic, gallery]
+display_categories: [palettes, sequential, divergiving]
 horizontal: false
 ---
 

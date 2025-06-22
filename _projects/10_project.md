@@ -6,9 +6,9 @@ img:
 importance: 1
 download_files:
   - name: probes_main_table.csv
-    url: example_pdf.pdf
+    url: probes_main_table.csv
   - name: probes_files.zip
-    url: example_pdf.pdf
+    url: probes_files.zip
 category: PROBES I
 ---
 
