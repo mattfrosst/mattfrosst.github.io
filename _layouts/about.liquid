@@ -3,9 +3,11 @@ layout: default
 ---
 <div class="post">
   <header class="post-header">
-    <h1 class="hero-section-title">
-      {% if page.hero_section %}
-        <span class="font-weight-bold">{{ page.hero_section.title }}</span>
+    <h1 class="hero-section">
+      {% if page.profile %}
+        {% if page.profile.more_info %}
+          <div class="more-info">{{ page.profile.more_info }}</div>
+	{% endif %}
       {% endif %}
     </h1>
     
