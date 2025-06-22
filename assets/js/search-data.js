@@ -68,8 +68,8 @@ ninja.data = [{
           description: "Here, you can download the PROBES II dataset, and read some further information on its contents and selection.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/11_project/";
-            },},{id: "projects-data-analysis",
-          title: 'data analysis',
+            },},{id: "projects-tokyo",
+          title: 'tokyo',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
