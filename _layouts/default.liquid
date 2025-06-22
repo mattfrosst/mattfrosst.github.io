@@ -20,12 +20,14 @@
     <!-- Header -->
     {% include header.liquid %}
 
-    <!-- Content -->
-    {% if page.content_before %}
+    <!-- Hero Section -->
+    {% if page.hero_section %}
       <div class="hero-wrapper">
-        {{ page.content_before }}
+        {{ page.hero_section }}
       </div>
     {% endif %}
+    
+    <!-- Content -->
     <div class="container mt-5" role="main">
       {% if page.toc and page.toc.sidebar %}
         {% if page.toc.sidebar == 'right' %}
