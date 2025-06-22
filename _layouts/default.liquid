@@ -4,7 +4,7 @@
   .hero-section {
     position: relative;
     width: 100vw;
-    height: 25vh;
+    height: 35vh;
     overflow: hidden;
   }
 
@@ -17,8 +17,8 @@
 
   .hero-section-text {
     position: absolute;
-    top: 70%;
-    left: 250%;
+    top: 10%;
+    left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     color: var(--global-text-color);
@@ -60,20 +60,18 @@
 
     <!-- Hero Section -->
     {% if page.hero %}
-      <div class="container-fluid bt-5">
-        <div class="hero-section">
-          <img class="hero-section-image" src={{ page.hero.image }}>
-          <div class="hero-section-text">
-	    <h1 class="hero-section-text .post-title">
-              {% if site.title == 'blank' %}
-                <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-                {{ site.last_name }}
-              {% else %}
-                {{ site.title }}
-              {% endif %}
-            </h1>
-            <p class="hero-section-text .desc">{{ page.subtitle }}</p>
-          </div>
+      <div class="hero-section bt-5">
+        <img class="hero-section-image" src={{ page.hero.image }}>
+        <div class="hero-section-text">
+	  <h1 class="post-title">
+            {% if site.title == 'blank' %}
+              <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
+              {{ site.last_name }}
+            {% else %}
+              {{ site.title }}
+            {% endif %}
+          </h1>
+          <p class="desc">{{ page.subtitle }}</p>
         </div>
       </div>
     {% endif %}
