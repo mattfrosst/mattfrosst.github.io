@@ -21,6 +21,7 @@
     {% include header.liquid %}
 
     <!-- Content -->
+    {% if content_before %}{{ content_before }}{% endif %}
     <div class="container mt-5" role="main">
       {% if page.toc and page.toc.sidebar %}
         {% if page.toc.sidebar == 'right' %}
