@@ -63,10 +63,15 @@
     {% if page.hero %}
       <div class="hero-section bt-5">
         <img class="hero-section-image" src={{ page.hero.image }}>
-        <div class="hero-section-text">
-	  <h1 class="post-title">{{ page.hero.title }}</h1>
-          <p class="desc">{{ page.subtitle }}</p>
-        </div>
+        <h1 class="hero-section-text">
+	  {% if site.title == 'blank' %}
+            <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
+            {{ site.last_name }}
+          {% else %}
+            {{ site.title }}
+          {% endif %}
+        </h1>
+        <p class="desc">{{ page.subtitle }}</p>
       </div>
     {% endif %}
 
