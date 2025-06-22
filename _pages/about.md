@@ -5,7 +5,7 @@ permalink: /
 subtitle: <a href="https://www.uwa.edu.au/">University of Western Australia</a> and the <a href="https://www.icrar.org/">International Centre for Radio Astronomy Research</a>.
 
 hero:
-  image: /assets/img/5.jpg
+  image: /assets/img/hero_section_background.png
   
 profile:
   align: right
