@@ -1,4 +1,42 @@
 <!doctype html>
+
+<style>
+  .hero-section {
+    position: relative;
+    width: 100vw;
+    height: 50%;
+    overflow: hidden;
+  }
+
+  .hero-section-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .hero-section-text {
+    position: absolute;
+    top: 70%;
+    left: 250%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: var(--global-text-color);
+    text-shadow: 0px 2px 4px rgba(0,0,0,0.7);
+  }
+  .hero-section-text .post-title {
+    color: var(--global-text-color);
+    font-size: 2.5rem;
+    margin: 0;
+  }
+
+  .hero-section-text .desc {
+    color: var(--global-text-color);
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+  }
+</style>
+
 <html lang="{{ site.lang }}">
   <!-- Head -->
   <head>
@@ -24,8 +62,8 @@
     {% if page.hero %}
       <div class="container-fluid bt-5">
         <div class="hero-section">
-          <img class="hero-image" src={{ page.hero.image }}>
-          <div class="hero-text">
+          <img class="hero-section-image" src={{ page.hero.image }}>
+          <div class="hero-section-text">
 	    <h1 class="post-title">
               {% if site.title == 'blank' %}
                 <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}

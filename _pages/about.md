@@ -6,8 +6,6 @@ subtitle: <a href="https://www.uwa.edu.au/">University of Western Australia</a> 
 
 hero:
   image: /assets/img/5.jpg
-  title: Title
-  subtitle: subtitle
   
 profile:
   align: right
