@@ -4,15 +4,10 @@ title: home
 permalink: /
 subtitle: <a href="https://www.uwa.edu.au/">University of Western Australia</a> and the <a href="https://www.icrar.org/">International Centre for Radio Astronomy Research</a>.
 
-hero: |
-  <div class="hero-section">
-    <img class="hero-image" src="/assets/img/5.jpg" alt="Hero image">
-    <div class="hero-text">
-      <h1>My Site Title</h1>
-      <p>My site subtitle here</p>
-    </div>
-  </div>
-  
+hero:
+  image: /assets/img/5.jpg
+  title: Title
+  subtitle: subtitle
   
 profile:
   align: right
