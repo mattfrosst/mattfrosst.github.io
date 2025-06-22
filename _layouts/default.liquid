@@ -18,7 +18,11 @@
   <!-- Body -->
   <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
     <!-- Header -->
-    <!-- {% include header.liquid %} -->
+    {% include header.liquid %}
+    <!-- Hero Section -->
+    <div class="container-fluid mt-5" role="main">
+      {{ page.hero }}
+    </div>
     <!-- Content -->
     <div class="container mt-5" role="main">
       {% if page.toc and page.toc.sidebar %}
