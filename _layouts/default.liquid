@@ -21,17 +21,24 @@
     {% include header.liquid %}
 
     <!-- Hero Section -->
-    <div class="container-fluid mt-5 bt-5">
-      {% if page.hero %}
+    {% if page.hero %}
+      <div class="container-fluid bt-5">
         <div class="hero-section">
-          <img class="hero-image" src= page.hero.image alt="Hero">
+          <img class="hero-image" src={{ page.hero.image }}>
           <div class="hero-text">
-            <h1> {{page.hero.title}} </h1>
-            <p> {{page.hero.subtitle}} </p>
+	    <h1 class="post-title">
+              {% if site.title == 'blank' %}
+                <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
+                {{ site.last_name }}
+              {% else %}
+                {{ site.title }}
+              {% endif %}
+            </h1>
+            <p class="desc">{{ page.subtitle }}</p>
           </div>
         </div>
-      {% endif %}
-    </div>
+      </div>
+    {% endif %}
 
     <!-- Content -->
     <div class="container mt-5" role="main">
