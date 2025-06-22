@@ -16,9 +16,9 @@
   }
 
   .hero-section-text {
-    position: relative;
+    position: absolute;
     top: 60%;
-    left: 25%;
+    left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     color: white;
@@ -28,6 +28,7 @@
   .hero-section-text .post-title {
     color: white;
     font-size: 2.5rem;
+    font-weight: bold;
     margin: 0;
   }
 
@@ -65,12 +66,7 @@
         <img class="hero-section-image" src={{ page.hero.image }}>
         <div class="hero-section-text">
 	  <h1 class="post-title">
-	    {% if site.title == 'blank' %}
-              <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-              {{ site.last_name }}
-            {% else %}
-              {{ site.title }}
-            {% endif %}
+	    {{ page.hero.title }}
           </h1>
           <p class="desc">{{ page.subtitle }}</p>
         </div>
