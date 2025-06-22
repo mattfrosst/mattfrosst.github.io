@@ -1,6 +1,6 @@
 ---
 layout: about
-title: home
+title: Matthew Frosst
 permalink: /
 subtitle: <a href="https://www.uwa.edu.au/">University of Western Australia</a> and the <a href="https://www.icrar.org/">International Centre for Radio Astronomy Research</a>.
 home_blurb: About me...
