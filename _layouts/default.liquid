@@ -19,14 +19,6 @@
   <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
     <!-- Header -->
     {% include header.liquid %}
-
-    <!-- Hero Section -->
-    {% if page.hero_section %}
-      <div class="hero-wrapper">
-        {{ page.hero_section }}
-      </div>
-    {% endif %}
-    
     <!-- Content -->
     <div class="container mt-5" role="main">
       {% if page.toc and page.toc.sidebar %}
