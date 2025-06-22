@@ -2,7 +2,7 @@
 
 <style>
   .hero-section {
-    position: absolute;
+    position: relative;
     width: 100vw;
     height: 40vh;
     overflow: hidden;
@@ -16,7 +16,7 @@
   }
 
   .hero-section-text {
-    position: absolute;
+    position: relative;
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -64,9 +64,9 @@
       <div class="hero-section bt-5">
         <img class="hero-section-image" src={{ page.hero.image }}>
         <div class="hero-section-text">
-	  <h1 class="post-title">
+	  <h1 class="post-title" style="font-weight: bold">
             {% if site.title == 'blank' %}
-              <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
+              {{ site.first_name }} {{ site.middle_name }}
               {{ site.last_name }}
             {% else %}
               {{ site.title }}
