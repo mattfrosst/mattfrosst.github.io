@@ -19,16 +19,18 @@ The **PROBES II** data, complied by <a href="https://ui.adsabs.harvard.edu/abs/2
 ---
 
 ### Data Contents
+- **`probes2_main_table.csv`**: Contains basic information for each source, including distance, inclination, ellipticity, and various mass measurements, among others.
+- **`probes2_files.zip`** contains the following:
+  - **`LightProfiles`**: Raw `.csv` files with radial surface brightness profiles in various bands.
+  - **`RotationCurves`**: Raw `.csv` files with radial RC profiles for various sources.
+  - **`global_properties_XXX.csv`**: Provides derived structural properties (e.g., effective radius, absolute magnitudes) in each band, along with gas and velocity-related quantities.
+  - **`block_list.txt`**: Lists galaxy IDs excluded due to issues such as:
+    - Missing inclination measurements
+    - Insufficient DESI photometry to estimate stellar mass
+    - Unreliable or unmeasurable RC inner slopes
+    -  Photometric problems (e.g., edge-on orientation, interactions, foreground contamination, bleeding, cosmic rays)
 
-- **`profiles.zip`**: Contains raw `.csv` files with surface brightness profiles and rotation curves for each galaxy.
-- **`global_properties_XXX.csv`**: Provides derived structural properties (e.g., effective radius, absolute magnitudes) in each band, along with gas and velocity-related quantities.
-- **`block_list.txt`**: Lists galaxy IDs excluded due to issues such as:
-  - Missing inclination measurements
-  - Insufficient DESI photometry to estimate stellar mass
-  - Unreliable or unmeasurable RC inner slopes
-  - Photometric problems (e.g., edge-on orientation, interactions, foreground contamination, bleeding, cosmic rays)
-
-Most systems on this list are excluded because they are too edge-on to derive reliable surface brightness or mass profiles, based on visual inspection. Whether to include these galaxies depends on your specific use case.
+Most systems on the block list are excluded because they are too edge-on to derive reliable surface brightness or mass profiles, based on visual inspection. Whether to include these galaxies depends on your specific use case.
 
 ---
 
