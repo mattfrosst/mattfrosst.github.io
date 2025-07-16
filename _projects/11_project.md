@@ -32,11 +32,11 @@ The **PROBES II** data, complied by <a href="https://ui.adsabs.harvard.edu/abs/2
 
 Most systems on the block list are excluded because they are too edge-on to derive reliable surface brightness or mass profiles, based on visual inspection. Whether to include these galaxies depends on your specific use case.
 
+Some galaxies appear more than once, with RCs sourced from multiple studies. These can be compared directly to assess consistency across sources or combined into a single RC as appropriate for your analysis.
+
 ---
 
-### Additional Notes
-
-Some galaxies appear more than once, with RCs sourced from multiple studies. These can be compared directly to assess consistency across sources or combined into a single RC as appropriate for your analysis.
+### Reference
 
 If you use this data in your research, we request that you cite <a href="https://ui.adsabs.harvard.edu/abs/2022MNRAS.514.3510F/abstract">Frosst et. al. 2022</a>, the bibtex for which can be found below:
 {% raw %}

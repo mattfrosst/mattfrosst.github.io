@@ -20,20 +20,20 @@ The **PROBES I** dataset, compiled by [Stone et al. (2022)](https://ui.adsabs.ha
 
 ### Data Contents
 
-- **`profiles.zip`**: Contains raw `.prof` files for each galaxy, including surface brightness profiles and rotation curves. Column descriptions can be found in the `README_profiles` file.
-- **`.aux` files**: Supplementary files containing details of the photometry extraction performed with **AutoProf**.
+- **`probes_main_table.csv`**: A master table providing key information for each galaxy, such as redshift, morphology, and available photometric bands.
+- **`probes_files.zip`**:
+  - **`profiles.zip`**: Contains raw `.prof` files for each galaxy, including surface brightness profiles and rotation curves. Column descriptions can be found in the `README_profiles` file.
+    - **`.aux` files**: Supplementary files containing details of the photometry extraction performed with **AutoProf**.
+  - **`model_fits.csv`**: Contains fitting parameters for a range of parametric models applied to both rotation curves and surface brightness profiles.
+  - **`structural_parameters.csv`**: Lists structural properties (e.g., effective radius, absolute magnitudes) for each galaxy with sufficient data.
 
-- **`probesI_main_table.csv`**: A master table providing key information for each galaxy, such as redshift, morphology, and available photometric bands.
-- **`model_fits.csv`**: Contains fitting parameters for a range of parametric models applied to both rotation curves and surface brightness profiles.
-- **`structural_parameters.csv`**: Lists structural properties (e.g., effective radius, absolute magnitudes) for each galaxy with sufficient data.
+Column definitions for all `.csv` tables are provided in the `README_tables` file. Each galaxy is identified by a unique name, which appears in the first column of each table, allowing for consistent cross-referencing across files. Basic Python files are included to help with reading and loading the data. 
 
-- **`probesI_files.zip`**: A collection of individual profile files and additional data products.
-
-Column definitions for all `.csv` tables are provided in the `README_tables` file. Each galaxy is identified by a unique name, which appears in the first column of each table, allowing for consistent cross-referencing across files.
+If you need guidance on how to use these data products, or how the parametric fits were performed, refer to the full documentation included in the download packages, or contact the authors.
 
 ---
 
-If you need guidance on how to use these data products, or how the parametric fits were performed, refer to the full documentation included in the download packages.
+### Reference
 
 If you use this data in your research, we request that you cite <a href="https://ui.adsabs.harvard.edu/abs/2022ApJS..262...33S/abstract">Stone et. al. 2022</a>, the bibtex for which can be found below:
 {% raw %}
