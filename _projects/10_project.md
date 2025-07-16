@@ -12,11 +12,28 @@ download_files:
 category: PROBES I
 ---
 
-The PROBES I data, complied by <a href="https://ui.adsabs.harvard.edu/abs/2022ApJS..262...33S/abstract">Stone et. al. 2022</a>, can be easily downloaded from the above buttons.
+The **PROBES I** dataset, compiled by [Stone et al. (2022)](https://ui.adsabs.harvard.edu/abs/2022ApJS..262...33S/abstract), can be downloaded using the buttons above.
 
-PROBES I contains extended rotation curves for 3163 late-type spirals, with matching homogeneous multi-band photometry for 1677 of them. Various files are found in the above download links. The raw data are given in the profiles.zip file. These .prof files contain the surface brightness profiles and rotation curves for each galaxy. The columns each profile are described in README_profiles. Also included are .aux files which give details of the photometry extraction with AutoProf.
+**PROBES I** provides extended rotation curves for **3,163 late-type spiral galaxies**, with accompanying homogeneous multi-band photometry available for **1,677** of them. This compilation supports a wide range of galaxy dynamics and structural studies at scale.
 
-The reduced data are contained in various .csv files. Each galaxy has a unique name which is given in the first column of each table. The file probesI_main_table.csv contains high level information about every galaxy including redshift, morphology, and which photometric bands are available. Individual profiles, and additional data products are available in probesI_files.zip. The model_fits.csv file contains fitting parameters for a number of parametric models which describeeither the rotation curves or surface brightness profiles. The structural_parameters.csv file contains structural parameters such as the effective radius or absolute magnitude for every galaxy which has the relevant data. The columns in each table are described in the README_tables file. 
+---
+
+### Data Contents
+
+- **`profiles.zip`**: Contains raw `.prof` files for each galaxy, including surface brightness profiles and rotation curves. Column descriptions can be found in the `README_profiles` file.
+- **`.aux` files**: Supplementary files containing details of the photometry extraction performed with **AutoProf**.
+
+- **`probesI_main_table.csv`**: A master table providing key information for each galaxy, such as redshift, morphology, and available photometric bands.
+- **`model_fits.csv`**: Contains fitting parameters for a range of parametric models applied to both rotation curves and surface brightness profiles.
+- **`structural_parameters.csv`**: Lists structural properties (e.g., effective radius, absolute magnitudes) for each galaxy with sufficient data.
+
+- **`probesI_files.zip`**: A collection of individual profile files and additional data products.
+
+Column definitions for all `.csv` tables are provided in the `README_tables` file. Each galaxy is identified by a unique name, which appears in the first column of each table, allowing for consistent cross-referencing across files.
+
+---
+
+If you need guidance on how to use these data products, or how the parametric fits were performed, refer to the full documentation included in the download packages.
 
 If you use this data in your research, we request that you cite <a href="https://ui.adsabs.harvard.edu/abs/2022ApJS..262...33S/abstract">Stone et. al. 2022</a>, the bibtex for which can be found below:
 {% raw %}

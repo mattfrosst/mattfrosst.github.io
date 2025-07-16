@@ -5,16 +5,36 @@ description: Here, you can download the PROBES II dataset, and read some further
 img:
 importance: 2
 download_files:
-  - name: probes_main_table.csv
-    url: probes_main_table.csv
-  - name: probes_files.zip
-    url: probes_files.zip
+  - name: probes2_main_table.csv
+    url: probes2_main_table.csv
+  - name: probes2_files.zip
+    url: probes2_files.zip
 category: PROBES II
 ---
 
-The PROBES II data, complied by <a href="https://ui.adsabs.harvard.edu/abs/2022MNRAS.514.3510F/abstract">Frosst et. al. 2022</a>, can be easily downloaded from the above buttons.
+The **PROBES II** data, complied by <a href="https://ui.adsabs.harvard.edu/abs/2022MNRAS.514.3510F/abstract">Frosst et. al. 2022</a>, can be downloaded using the buttons above.
 
-!Caution! This page is a work in progress, and will currently direct you to a download of the PROBES-I data!
+**PROBES II** comprises all spatially resolved rotation curves (RCs) of low-mass galaxies—specifically dwarfs and low surface brightness (LSB) systems—available to us at the time of compilation. While the dataset was initially designed to address the scarcity of such low-mass galaxies, it also includes more massive systems for completeness. In total, the compilation contains **631 late-type galaxies (LTGs)** drawn from **25 different sources**, spanning the full range of LTG Hubble types. Of these, **356 galaxies** have both RCs and photometry in at least three optical bands: either **g, r, z** from **DESI** (317 galaxies), or **g, r, i** from **SDSS DR7** (39 galaxies).
+
+---
+
+### Data Contents
+
+- **`profiles.zip`**: Contains raw `.csv` files with surface brightness profiles and rotation curves for each galaxy.
+- **`global_properties_XXX.csv`**: Provides derived structural properties (e.g., effective radius, absolute magnitudes) in each band, along with gas and velocity-related quantities.
+- **`block_list.txt`**: Lists galaxy IDs excluded due to issues such as:
+  - Missing inclination measurements
+  - Insufficient DESI photometry to estimate stellar mass
+  - Unreliable or unmeasurable RC inner slopes
+  - Photometric problems (e.g., edge-on orientation, interactions, foreground contamination, bleeding, cosmic rays)
+
+Most systems on this list are excluded because they are too edge-on to derive reliable surface brightness or mass profiles, based on visual inspection. Whether to include these galaxies depends on your specific use case.
+
+---
+
+### Additional Notes
+
+Some galaxies appear more than once, with RCs sourced from multiple studies. These can be compared directly to assess consistency across sources or combined into a single RC as appropriate for your analysis.
 
 If you use this data in your research, we request that you cite <a href="https://ui.adsabs.harvard.edu/abs/2022MNRAS.514.3510F/abstract">Frosst et. al. 2022</a>, the bibtex for which can be found below:
 {% raw %}
