@@ -29,13 +29,13 @@ The **PROBES I** dataset, compiled by [Stone et al. (2022)](https://ui.adsabs.ha
 
 Column definitions for all `.csv` tables are provided in the `README_tables` file. Each galaxy is identified by a unique name, which appears in the first column of each table, allowing for consistent cross-referencing across files. Basic Python files are included to help with reading and loading the data. 
 
-If you need guidance on how to use these data products, or how the parametric fits were performed, refer to the full documentation included in the download packages, or contact the authors.
+For further information about the overall use of these data products, or how the parametric fits were performed, please refer to the full documentation included in the download packages or contact the authors.
 
 ---
 
 ### Reference
 
-If you use this data in your research, we request that you cite <a href="https://ui.adsabs.harvard.edu/abs/2022ApJS..262...33S/abstract">Stone et. al. 2022</a>, the bibtex for which can be found below:
+If you use these data in your research, we request that you cite <a href="https://ui.adsabs.harvard.edu/abs/2022ApJS..262...33S/abstract">Stone et. al. 2022</a>, the bibtex for which can be found below:
 {% raw %}
 <pre><code>@ARTICLE{2022ApJS..262...33S,
        author = {{Stone}, Connor and {Courteau}, St{\'e}phane and {Arora}, Nikhil and {Frosst}, Matthew and {Jarrett}, Thomas H.},

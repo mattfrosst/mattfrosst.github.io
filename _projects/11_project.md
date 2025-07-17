@@ -12,7 +12,7 @@ download_files:
 category: PROBES II
 ---
 
-The **PROBES II** data, complied by <a href="https://ui.adsabs.harvard.edu/abs/2022MNRAS.514.3510F/abstract">Frosst et. al. 2022</a>, can be downloaded using the buttons above.
+The **PROBES II** data, compiled by <a href="https://ui.adsabs.harvard.edu/abs/2022MNRAS.514.3510F/abstract">Frosst et. al. 2022</a>, can be downloaded using the buttons above.
 
 **PROBES II** comprises all spatially resolved rotation curves (RCs) of low-mass galaxies—specifically dwarfs and low surface brightness (LSB) systems—available to us at the time of compilation. While the dataset was initially designed to address the scarcity of such low-mass galaxies, it also includes more massive systems for completeness. In total, the compilation contains **631 late-type galaxies (LTGs)** drawn from **25 different sources**, spanning the full range of LTG Hubble types. Of these, **356 galaxies** have both RCs and photometry in at least three optical bands: either **g, r, z** from **DESI** (317 galaxies), or **g, r, i** from **SDSS DR7** (39 galaxies).
 
@@ -38,7 +38,7 @@ Some galaxies appear more than once, with RCs sourced from multiple studies. The
 
 ### Reference
 
-If you use this data in your research, we request that you cite <a href="https://ui.adsabs.harvard.edu/abs/2022MNRAS.514.3510F/abstract">Frosst et. al. 2022</a>, the bibtex for which can be found below:
+If you use these data in your research, we request that you cite <a href="https://ui.adsabs.harvard.edu/abs/2022MNRAS.514.3510F/abstract">Frosst et. al. 2022</a>, the bibtex for which can be found below:
 {% raw %}
 <pre><code>@ARTICLE{2022MNRAS.514.3510F,
        author = {{Frosst}, Matthew and {Courteau}, St{\'e}phane and {Arora}, Nikhil and {Stone}, Connor and {Macci{\`o}}, Andrea V. and {Blank}, Marvin},
