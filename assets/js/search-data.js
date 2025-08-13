@@ -58,7 +58,10 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "projects-probes-i-data-stone-et-al-2022",
+            },},{id: "news-completed-the-public-data-release-of-probes-i-amp-amp-ii-totalling-4000-galaxy-rotation-curves-and-light-profiles-accessible-here",
+          title: 'Completed the public data release of PROBES I &amp;amp;amp; II, totalling ~4000 galaxy...',
+          description: "",
+          section: "News",},{id: "projects-probes-i-data-stone-et-al-2022",
           title: 'PROBES I data; Stone et al. 2022',
           description: "Here, you can download the PROBES I dataset, and read some further information on its contents and selection.",
           section: "Projects",handler: () => {
